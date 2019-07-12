@@ -1,3 +1,6 @@
+const fs = require('fs');
+
+
 
 module.exports = {
 
@@ -7,7 +10,8 @@ module.exports = {
         let first_child;
         let listLen = quotesList.length - 6; 
         let quote;
-        
+        let quotes_csv = "";
+       
         for (let i = 8; i < listLen; i++) {
             first_child = quotesList[i].children[0];
             
