@@ -2,7 +2,7 @@
   "name": "node_web_scraper",
   "version": "1.0.0",
   "description": "Node Web Scraper",
-  "main": "index.js",
+  "main": "quotes-scraper.js",
   "scripts": {
     "test": "quote_test"
   },
